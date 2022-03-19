@@ -1,32 +1,29 @@
 {
-  "name": "weather-cli",
+  "name": "weather-cli-dzedst",
   "version": "1.0.0",
   "description": "CLI for getting weather",
-  "main": "index.js",
-  "man": ["./README.md"],
-  "engines": {
-    "node": ">14"
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
   },
-  "funding": "https://google.com",
-
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "cli",
-    "weather"
+    "weather",
+    "node"
   ],
   "author": "Eduard Dzyurban",
   "license": "ISC",
-  "homepage": "https://google.com",
-  "repository": {
-    "type": "git",
-    "url": "https://google.com"
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
   },
-  "bugs": {
-    "url": "https://google.com",
-    "email": "eduarddzyurban@gmail.com"
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
-
