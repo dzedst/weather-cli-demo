@@ -1,0 +1,32 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "index.js",
+  "man": ["./README.md"],
+  "engines": {
+    "node": ">14"
+  },
+  "funding": "https://google.com",
+
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Eduard Dzyurban",
+  "license": "ISC",
+  "homepage": "https://google.com",
+  "repository": {
+    "type": "git",
+    "url": "https://google.com"
+  },
+  "bugs": {
+    "url": "https://google.com",
+    "email": "eduarddzyurban@gmail.com"
+  }
+}
+
